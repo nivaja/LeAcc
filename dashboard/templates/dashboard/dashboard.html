@@ -1,0 +1,103 @@
+{% extends 'html/base.html' %}
+
+    <!--Navigation Bar -->
+<!--Navigation Bar -->
+
+<!-- Body -->
+{% block body %}
+  <div class="container-fluid">
+    <div class="view-body">
+
+        <div class="container-fluid">
+  <div class="row">
+    <div class="col">
+       <div class="card">
+             <div class="card-body">
+                  <h5 class="card-title">Production Vs Sales</h5>
+                 <div id="curve_chart" style= "height: 18rem;"></div>
+             </div>
+       </div>
+    </div>
+    <div class="col">
+       <div class="card">
+             <div class="card-body" >
+                  <h5 class="card-title">Sales By Customers</h5>
+                  <div id="columnchart_values" style="height: 18rem;"></div>
+             </div>
+         </div>
+    </div>
+
+    <div class="col">
+       <div class="card" style="height: 20rem;">
+             <div class="card-body">
+                  <h5 class="card-title">Account Payables And Owings</h5>
+                  <div class="container-fluid">
+                      <div class="row" style="margin-top: 1.5rem;">
+                          <div id="barchart_values" style="width: 22rem;"></div>
+                      </div>
+                      <div class="row" style="margin-top: 1.5rem;">
+                         <div id="table_div"></div>
+                      </div>
+                  </div>
+                  
+             </div>
+          </div>
+    </div>
+  </div>
+  <div class="row" style="margin-top: 1rem;">
+    <div class="col">
+      <div class="card">
+             <div class="card-body">
+                  <h5 class="card-title">Income Breakdown</h5>
+                  <div id="donutchart" style="width: 100%; height: 20rem;"></div>
+             </div>
+          </div>
+    </div>
+    <div class="col">
+      <div class="card">
+             <div class="card-body">
+                  <h5 class="card-title">Expenses Breakdown</h5>
+                  <div id="donutchart1" style="width: 100%; height: 20rem;"></div>
+             </div>
+          </div>
+    </div>
+    <div class="col">
+       <div class="card">
+             <div class="card-body">
+                  <h5 class="card-title">Stock Report</h5>
+                   <div id="table_div1"></div>
+             </div>
+          </div>
+    </div>
+    </div>
+
+    <div class="row" style="margin-top: 1rem;">
+    <div class="col">
+       <div class="card">
+             <div class="card-body">
+                  <h5 class="card-title">Monthly Cashflow</h5>
+                 <div id="chart_div" style="width:100%; height: 20rem;"></div>
+             </div>
+          </div>
+
+    </div>
+</div> 
+  </div>
+</div>
+</div>
+
+    {% load staticfiles %}
+
+<!-- Body -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <!-- google chart scripts -->
+     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+      <script type="text/javascript" src="{% static 'js/saleByCustomer.js' %}"></script>
+      <script type="text/javascript" src="{% static 'js/salesVsProduction.js' %}"></script>
+      <script type="text/javascript" src="{% static 'js/PayablesAndOwning.js' %}"></script>
+      <script type="text/javascript" src="{% static 'js/incomeBreakdown.js' %}"></script>
+      <script type="text/javascript" src="{% static 'js/expensesBreakdown.js' %}"></script>
+      <script type="text/javascript" src="{% static 'js/monthIncome.js' %}"></script>
+      <script type="text/javascript" src="{% static 'js/stock.js' %}"></script>
+{% endblock %}
