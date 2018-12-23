@@ -1,64 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ba721aa-1e2c-4fb6-91d8-53d05a591de0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/html/forms/bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/html/bootstrap/bootstrap.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/html/coa/assets.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/html/forms/add_customer_vendor.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/html/forms/add_employee.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/html/forms/add_ledger.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/html/forms/add_stock.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/html/forms/add_sub_ledger.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/html/forms/add_uom.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/html/forms/new_company.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/html/forms/purchase_entry.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/html/forms/sales_entry.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/html/forms/signup.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/html/forms/test.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/html/forms/voucher_entry.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/html/header_footer/header.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/css/bootstrap-grid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/css/bootstrap-grid.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/css/bootstrap-grid.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/css/bootstrap-grid.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/css/bootstrap-reboot.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/css/bootstrap-reboot.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/css/bootstrap-reboot.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/css/bootstrap-reboot.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/css/bootstrap.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/css/custom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/css/forms.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/js/PayablesAndOwning.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/js/addCustomerVendor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/js/addLedger.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/js/addStock.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/js/addUom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/js/bootstrap/bootstrap.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/js/bootstrap/bootstrap.bundle.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/js/bootstrap/bootstrap.bundle.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/js/bootstrap/bootstrap.bundle.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/js/bootstrap/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/js/bootstrap/bootstrap.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/js/bootstrap/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/js/bootstrap/bootstrap.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/js/customer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/js/expensesBreakdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/js/incomeBreakdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/js/monthIncome.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/js/production.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/js/saleByCustomer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/js/salesVsProduction.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/js/sales_entry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/js/stock.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/js/transportation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/js/vendor.js" />
+    <list default="true" id="9ba721aa-1e2c-4fb6-91d8-53d05a591de0" name="Default" comment="Dashboard and static files">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeAcc/settings.py" afterPath="$PROJECT_DIR$/LeAcc/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeAcc/urls.py" afterPath="$PROJECT_DIR$/LeAcc/urls.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -84,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/dashboard/templates/dashboard/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -94,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/templates/html/base.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="276">
-              <caret line="129" column="21" lean-forward="true" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="21" />
+              <caret line="129" column="21" lean-forward="false" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -144,7 +88,7 @@
         <entry file="file://$PROJECT_DIR$/templates/html/forms/purchase_entry.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2457">
-              <caret line="117" column="0" lean-forward="true" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+              <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -649,11 +593,18 @@
       <option name="presentableId" value="Default" />
       <updated>1545544751842</updated>
     </task>
+    <task id="LOCAL-00001" summary="Dashboard and static files">
+      <created>1545566181158</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545566181158</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25295383" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -663,7 +614,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.79275197" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -722,7 +673,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Dashboard and static files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dashboard and static files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -885,6 +837,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -911,6 +864,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" column="52" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -936,6 +890,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -986,7 +941,7 @@
     <entry file="file://$PROJECT_DIR$/templates/html/forms/purchase_entry.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2457">
-          <caret line="117" column="0" lean-forward="true" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+          <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -994,7 +949,7 @@
     <entry file="file://$PROJECT_DIR$/templates/html/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="129" column="21" lean-forward="true" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="21" />
+          <caret line="129" column="21" lean-forward="false" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1010,7 +965,7 @@
     <entry file="file://$PROJECT_DIR$/dashboard/templates/dashboard/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
